@@ -1,5 +1,7 @@
 #!/usr/bin/env groovy
 
+import groovy.transform.Field
+
 @Field javaVersions = [
     'Java 21': 'java21',
     'Java 17': 'java17',
